@@ -1,0 +1,30 @@
+$ff: "Barlow Semi Condensed", sans-serif;
+$fs-heading: 1.1875rem;
+$fs-body: 0.8125rem;
+$fs-status: 0.75rem;
+$fw-heading: 600;
+$fw-body: 500;
+
+main .card {
+  .profile .info .name {
+    font-family: $ff;
+    font-size: $fs-body;
+    font-weight: $fw-heading;
+  }
+  .profile .info .status {
+    font-family: $ff;
+    font-size: $fs-status;
+    font-weight: $fw-body;
+  }
+  h2 {
+    font-family: $ff;
+    font-size: $fs-heading;
+    font-weight: $fw-heading;
+    line-height: 1.2;
+  }
+  .testimonial {
+    font-family: $ff;
+    font-size: $fs-body;
+    font-weight: $fw-body;
+  }
+}
