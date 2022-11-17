@@ -245,7 +245,7 @@ main .patrick.card .testimonial {
   opacity: 70%;
 }
 main .patrick.card .profile img {
-  outline: 0.125rem solid hsl(263deg, 55%, 52%);
+  border: 0.125rem solid hsl(263deg, 55%, 52%);
 }
 
 @media screen and (max-width: 66.25em) {
